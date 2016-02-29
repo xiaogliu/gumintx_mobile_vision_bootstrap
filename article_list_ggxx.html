@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"/> <!-- 声明编码标准，否有浏览器如火狐会中文乱码 -->
-        <meta name="viewport" content="width=device-width, initial-scale=1"/> <!-- 告诉浏览器自适应 -->
+        <meta charset="UTF-8"> <!-- 声明编码标准，否有浏览器如火狐会中文乱码 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title> 股民天下 | 个股信息 </title>
-        <link rel="stylesheet" type="text/css" href="css/article_list.css"/>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="css/article_list.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <script type="text/javascript" src="js/jquery.min.js"> </script>
         <script type="text/javascript" src="js/bootstrap.min.js"> </script> 
         <script type="text/javascript" src="js/to_top.js"> </script>
@@ -18,35 +18,18 @@
                 <div class="stick"></div>  
             </div>  
             <div class="row" id="header">
-                <div class="col-xs-3">
-                    <a href="index.html">
-                        <img alt="主页" src="img/home.jpg" id="logoHome">
-                    </a>
-                </div>
-                <div class="col-xs-6">
-                    <img alt="股民天下" src="img/logo.jpg" id="logoGumintx">
+                <div class="col-xs-9">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html"> 主页 </a></li>
+                            <li> 个股信息 </li>
+                        </ol>
                 </div>
                 <div class="col-xs-3">
                     <img alt="搜索" src="img/search.jpg" id="logoSearch">
                 </div>
             </div>    
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-12" id="navigation">
-                            <table>
-                                <tr>
-                                    <td><a href="article_list_gwzt.html"> 股文杂谈 </a></td>
-                                    <td><a href="article_list_ybgg.html"> 研报个股 </a></td>
-                                    <td><a href="article_list_xwjx.html"> 新闻精选 </a></td>
-                                </tr>
-                                </tr>
-                                    <td><a href="article_list_hyxw.html"> 行业新闻 </a></td>
-                                    <td><a href="article_list_ggxx.html"> 个股信息 </a></td>
-                                    <td><a href="article_list_ztfx.html"> 涨停分析 </a></td>
-                            </table>
-                        </div>
-                    </div>
+                <div class="col-sm-12">
                     <div class="row">
                         <div class="col-xs-12" id="moduleArticleList">
                             <ul>
@@ -142,7 +125,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="row">
                         <div class="col-xs-6 col-xs-offset-3" id="more">
                             <p> 查看更多 </p>

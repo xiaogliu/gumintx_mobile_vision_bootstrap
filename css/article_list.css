@@ -4712,11 +4712,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   list-style: none;
-  background-color: #f9c8bf;
-  border-radius: 4px;
+  background-color: #ff424b;
+  font-size: 18px;
+  float: left;
 }
 .breadcrumb > li {
   display: inline-block;
