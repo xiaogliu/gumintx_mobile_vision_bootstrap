@@ -1,1 +1,1 @@
-use bootstrap to develop.
+Use bootstrap to develop static page.
