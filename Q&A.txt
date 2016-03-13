@@ -1,0 +1,6 @@
+1、如果用table作为nav，要沾满整个row的空间（好像是分散对齐），可以通过设置width属性实现，具体width="100%".（如果不看原标准的话，可以看W3C中文网，如果找不到再看原标准）
+
+2、在网页代码的头部，加入一行viewport元标签。
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。  同时对于字体单位，不能使用绝对大小（px），而只能使用相对大小（em），包括宽度，这点我没做。
+
